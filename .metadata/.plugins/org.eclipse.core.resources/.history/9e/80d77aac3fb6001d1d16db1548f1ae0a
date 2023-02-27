@@ -1,0 +1,7 @@
+
+public class Zookeeper {
+
+	void feed(Tiger tiger) {
+		System.out.println("feed apple");
+	}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Zookeeper&apos; to &apos;ZooKeeper&apos;&#x0D;&#x0A;- Original project: &apos;InterfaceExam&apos;&#x0D;&#x0A;- Original element: &apos;Zookeeper&apos;&#x0D;&#x0A;- Renamed element: &apos;ZooKeeper&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Zookeeper&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Zookeeper.java[Zookeeper" matchStrategy="1" name="ZooKeeper" qualified="false" references="true" similarDeclarations="false" stamp="1677462058902" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,13 @@
+package com.carshop.controller;
+
+import java.util.List;
+
+public class BoardRepositoryImpl implements BoardRepository {
+
+	@Override
+	public List<BoardDTO> getAllBoardList() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

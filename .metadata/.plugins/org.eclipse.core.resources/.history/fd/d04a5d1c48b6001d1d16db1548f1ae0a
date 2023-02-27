@@ -1,0 +1,11 @@
+package com.carshop.controller;
+
+import java.util.*;
+
+public class CarRepositoryImpl implements CarRepository {
+
+	
+	public List<CarDTO> getAllCarList(){
+		
+	}
+}

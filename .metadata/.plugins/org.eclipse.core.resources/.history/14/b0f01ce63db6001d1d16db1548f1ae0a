@@ -1,0 +1,6 @@
+package com.carshop.controller;
+
+public class CarDTO {
+
+	private String cid, cname, cprice, ccate, cdesc;
+}

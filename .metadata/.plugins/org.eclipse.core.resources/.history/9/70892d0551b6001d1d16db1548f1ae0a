@@ -1,0 +1,31 @@
+package com.carshop.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class BoardRepositoryImpl implements BoardRepository {
+
+	private List<BoardDTO> listOfBoards = new ArrayList<BoardDTO>();
+	
+	public BoardRepositoryImpl() {
+		
+		BoardDTO board1 = new BoardDTO("c0001","소나타","aaa","2023-02-25");
+		BoardDTO board2 = new BoardDTO("c0002","그랜저","bbb","2023-02-26");
+		BoardDTO board3 = new BoardDTO("c0003","아반테","ccc","2023-02-27");
+		
+		listOfBoards.add(board1);
+		listOfBoards.add(board2);
+		listOfBoards.add(board3);
+		
+	}
+	
+	@Override
+	public List<BoardDTO> getAllBoardList() {
+		
+		return null;
+	}
+
+}

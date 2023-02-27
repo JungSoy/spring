@@ -1,0 +1,17 @@
+package com.carshop.controller;
+
+import java.util.*;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class CarRepositoryImpl implements CarRepository {
+
+	private List<CarDTO> listOfCars = new ArrayList<CarDTO>();
+	
+	@Override
+	public List<CarDTO> getAllCarList(){
+		
+		return null;
+	}
+}
