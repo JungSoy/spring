@@ -14,9 +14,11 @@ public class CarRepositoryImpl implements CarRepository {
 		CarDTO car1 = new CarDTO("c0001", "소나타", "2500", "승용차", "거의 새거");
 		CarDTO car2 = new CarDTO("c0002", "그랜저", "3500", "승용차", "아주 새거");
 		CarDTO car3 = new CarDTO("c0003", "아반테", "2000", "승용차", "극히 새거");
+		CarDTO car4 = new CarDTO("c0003", "아반테", "2000", "승용차", "극히 새거");
 		
 		listOfCars.add(car1);
 		listOfCars.add(car2);
+		listOfCars.add(car3);
 		listOfCars.add(car3);
 	}
 	
@@ -24,5 +26,15 @@ public class CarRepositoryImpl implements CarRepository {
 	public List<CarDTO> getAllCarList(){
 		
 		return listOfCars;
+	}
+	
+	public List<CarDTO> getCarListByCategory(String category){
+		List<CarDTO> carsByCategory = new ArrayList<CarDTO>();
+		for (int i = 0; i < listOfCars.size(); i++) {
+			CarDTO carDTO = listOfCars.get(i);
+			if(category.equalsIgnoreCase(carDTO.getCcate()));
+				carsByCategory.add(carDTO);
+		}
+		return carsByCategory;
 	}
 }

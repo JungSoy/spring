@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Car List</title>
+<title>게시판</title>
 </head>
 <body>
 	<link

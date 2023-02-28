@@ -1,0 +1,14 @@
+package com.carshop.study;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/study")
+public class ModelAndViewExam {
+
+	public String modelandview() {
+		
+		return null;
+	}
+}
