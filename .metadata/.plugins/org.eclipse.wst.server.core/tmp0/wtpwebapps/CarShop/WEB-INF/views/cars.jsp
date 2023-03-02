@@ -54,6 +54,8 @@
 					<h3>${car.cid}</h3>
 					<p>${car.cname}
 					<p>${car.cprice} 만원
+					<p><a href="<c:url value="/car?id=${car.cid }"/>" 
+					class="btn btn-secondary" role="button">상세보기</a>
 				</div>			
 			</c:forEach>		
 		</div>
