@@ -1,5 +1,0 @@
-package com.carshop.controller;
-
-public interface BoardRepository {
-
-}

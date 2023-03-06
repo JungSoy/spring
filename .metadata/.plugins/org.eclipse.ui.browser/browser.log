@@ -9,3 +9,7 @@
 2월 28, 2023 13:27:36.673 [15128:12396:0228/132736.672:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
 2월 28, 2023 13:34:06.827 [15128:12396:0228/133406.826:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
 2월 28, 2023 13:58:12.69 [15128:12396:0228/135812.068:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+
+3월 03, 2023 11:39:30.883 NEW SESSION
+3월 03, 2023 11:39:30.883 [5184:23804:0303/113930.881:ERROR:device_event_log_impl.cc(218)] [11:39:30.881] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+3월 03, 2023 11:39:30.894 [5184:23804:0303/113930.886:ERROR:device_event_log_impl.cc(218)] [11:39:30.886] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
