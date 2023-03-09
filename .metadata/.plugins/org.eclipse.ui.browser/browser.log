@@ -13,3 +13,18 @@
 3월 03, 2023 11:39:30.883 NEW SESSION
 3월 03, 2023 11:39:30.883 [5184:23804:0303/113930.881:ERROR:device_event_log_impl.cc(218)] [11:39:30.881] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
 3월 03, 2023 11:39:30.894 [5184:23804:0303/113930.886:ERROR:device_event_log_impl.cc(218)] [11:39:30.886] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+
+3월 08, 2023 09:43:20.386 NEW SESSION
+3월 08, 2023 09:43:20.386 [12080:15932:0308/094320.383:ERROR:device_event_log_impl.cc(218)] [09:43:20.383] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+3월 08, 2023 09:43:20.387 [12080:15932:0308/094320.387:ERROR:device_event_log_impl.cc(218)] [09:43:20.387] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+3월 08, 2023 10:01:34.463 [12080:15932:0308/100134.463:ERROR:device_event_log_impl.cc(218)] [10:01:34.463] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)
+3월 08, 2023 11:21:18.730 [9864:7672:0308/112118.729:ERROR:device_event_log_impl.cc(218)] [11:21:18.729] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+3월 08, 2023 11:21:18.733 [9864:7672:0308/112118.733:ERROR:device_event_log_impl.cc(218)] [11:21:18.733] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: �ý��ۿ� ������ ��ġ�� �۵����� �ʽ��ϴ�. (0x1F)
+3월 08, 2023 11:39:27.795 [9864:7672:0308/113927.795:ERROR:interface_endpoint_client.cc(695)] Message 0 rejected by interface blink.mojom.WidgetHost
+3월 08, 2023 11:43:28.566 [9864:7672:0308/114328.566:ERROR:interface_endpoint_client.cc(695)] Message 0 rejected by interface blink.mojom.WidgetHost
+3월 08, 2023 12:01:23.799 [9864:7672:0308/120123.798:ERROR:device_event_log_impl.cc(218)] [12:01:23.796] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: ��Ұ� �����ϴ�. (0x490)
+3월 08, 2023 12:50:40.609 [9864:12596:0308/125040.608:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+3월 08, 2023 12:50:52.241 [9864:12596:0308/125052.241:ERROR:connection_factory_impl.cc(427)] Failed to connect to MCS endpoint with error -105
+3월 08, 2023 12:50:57.240 [9864:12596:0308/125057.240:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+3월 08, 2023 13:39:30.331 [9864:12596:0308/133930.330:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
+3월 08, 2023 13:48:11.423 [9864:12596:0308/134811.423:ERROR:connection_factory_impl.cc(472)] ConnectionHandler failed with net error: -2
